@@ -266,12 +266,12 @@ function cacheImages(images) {
 }
 
 function cacheFonts(fonts) {
-  try {
-    const { Font } = require('expo');
-    return fonts.map(font => Font.loadAsync(font));
-  } catch (error) {
+  //try {
+  //  const { Font } = require('expo');
+  //  return fonts.map(font => Font.loadAsync(font));
+  //} catch (error) {
     throw new Error('Expo have to be installed if you want to use Font');
-  }
+  //}
 }
 
 
