@@ -1,3 +1,5 @@
+Relive: removed "expo" require from dist/index.js. This is because otherwise metro bundler doesn't bundle without Expo installed
+
 [![NPM](https://nodei.co/npm/expo-asset-utils.png)](https://nodei.co/npm/expo-asset-utils/)
 
 ---
