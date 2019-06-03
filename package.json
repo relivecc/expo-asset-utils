@@ -54,8 +54,7 @@
   },
   "peerDependencies": {
     "expo-asset": "~4.0.0",
-    "expo-file-system": "~4.0.0",
-    "expo-font": "~4.0.0"
+    "expo-file-system": "~4.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
