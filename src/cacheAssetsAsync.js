@@ -1,6 +1,6 @@
 // @flow
 import { Asset } from 'expo-asset';
-import { loadAsync } from 'expo-font';
+// import { loadAsync } from 'expo-font';
 import { prefetch } from './ImageUtils';
 
 export type CacheOptions = {
