@@ -32,5 +32,6 @@ function cacheImages(images: Array): Promise[] {
 }
 
 function cacheFonts(fonts: Array): Array<Promise> {
-  return fonts.map(font => loadAsync(font));
+  // return fonts.map(font => loadAsync(font));
+  throw new Error('Expo has to be installed if you want to use Font');
 }
